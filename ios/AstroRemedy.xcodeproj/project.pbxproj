@@ -1,0 +1,929 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* AstroRemedyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AstroRemedyTests.m */; };
+		0C80B921A6F3F58F76C31292 /* libPods-AstroRemedy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-AstroRemedy.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		7699B88040F8A987B510C191 /* libPods-AstroRemedy-AstroRemedyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-AstroRemedy-AstroRemedyTests.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		612CBCD38ADA4256AE1D33CE /* helvetica-compressed-5871d14b6903a.otf in Resources */ = {isa = PBXBuildFile; fileRef = FF4CB0B8510A4CC2BC4D04C7 /* helvetica-compressed-5871d14b6903a.otf */; };
+		A18B46B3E5AA49B5B0BEA736 /* helvetica-rounded-bold-5871d05ead8de.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4EE6E0B0ED7D4E5D97D61FF6 /* helvetica-rounded-bold-5871d05ead8de.otf */; };
+		7359620EAF0547A0A6E9BE38 /* Helvetica-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C1326C86DA14F9F937D08E7 /* Helvetica-Bold.ttf */; };
+		A21AB930262E4146B4A9A766 /* Helvetica-BoldOblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 207A88B570C24F7CBE015545 /* Helvetica-BoldOblique.ttf */; };
+		595992909BDF449FBE6CCBE7 /* helvetica-light-587ebe5a59211.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFE8301522694483ABB396EE /* helvetica-light-587ebe5a59211.ttf */; };
+		DF0835C094B9498D92F4A632 /* Helvetica-Oblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EDE3EB50902243FF835372B9 /* Helvetica-Oblique.ttf */; };
+		0B4C7B349DED41668A904DA0 /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD48C71A04814F5D9FFACF1A /* Inter-Black.ttf */; };
+		82A48252E89A4F2F94D60182 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80BF8D8C4E0F40C0B032F8BF /* Inter-Bold.ttf */; };
+		941A287965934E628A81B946 /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3513024EC23F4404B5D4AED1 /* Inter-ExtraBold.ttf */; };
+		8556984001BD4109A66E3F5E /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA4494E960064548844E20E5 /* Inter-ExtraLight.ttf */; };
+		BF06D56B86C34176A5999D3C /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E3B1F4CDE1F48CB824B753E /* Inter-Light.ttf */; };
+		00A93CAAEA904749A1911DD3 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 575948814D0842D4B8EAEC2B /* Inter-Medium.ttf */; };
+		2A3ED889C500448997330817 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B36CFCB989AE4B078836C398 /* Inter-Regular.ttf */; };
+		0CD6882EDD5A495DB0BCB496 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83891236DC9C4F99B669F1E8 /* Inter-SemiBold.ttf */; };
+		743573F73FE4409982724520 /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E4A13B6BD2E453990FC66DE /* Inter-Thin.ttf */; };
+		1BA0104F0B0A44DB82FFD62D /* Jost-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B5406D2242C4C1B8E3394CB /* Jost-Black.ttf */; };
+		20F3D3D016CB48BFA8D967D3 /* Jost-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8DF52F05D4FC4574BA5A3B20 /* Jost-BlackItalic.ttf */; };
+		B221EBABF9BE422E95BCC809 /* Jost-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF030B93532C49DA9580AD86 /* Jost-Bold.ttf */; };
+		213C80623EE94CC8A8855EC0 /* Jost-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 390449C411534AEBBDA9411C /* Jost-BoldItalic.ttf */; };
+		3440C41D10E4465FA5726CB9 /* Jost-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F72ECAE36CC45C083B8354F /* Jost-ExtraBold.ttf */; };
+		2B408EAC937F4D308783B46A /* Jost-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76857A3592454840B6CCB51D /* Jost-ExtraBoldItalic.ttf */; };
+		32064FF2ADA449FBB294B665 /* Jost-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F79239329774F70B072CEA3 /* Jost-ExtraLight.ttf */; };
+		761BB2DFC308490EA85249D3 /* Jost-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EFCC9EE4CC641E9A0624F0C /* Jost-ExtraLightItalic.ttf */; };
+		A9FC89F91B3F40E6943F97DA /* Jost-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 074BA2FD782B49BAB152DB2C /* Jost-Italic.ttf */; };
+		C810007F8F664B6897201E20 /* Jost-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D5A976080574E3084C28B67 /* Jost-Light.ttf */; };
+		F714A9C109334EFCB72F0CFC /* Jost-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3A27E28F9C14CDFA90A590B /* Jost-LightItalic.ttf */; };
+		5EA1C2B89FA94409803F72A8 /* Jost-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A3A49226FA14D6A89FE8896 /* Jost-Medium.ttf */; };
+		D27A8D4428F24934BCDB33E0 /* Jost-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D7E863944AB4972AE7E7843 /* Jost-MediumItalic.ttf */; };
+		A390294484884EDA98812116 /* Jost-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24AE4E5347A34C378371845E /* Jost-Regular.ttf */; };
+		64F539D2797B4D8787D466C5 /* Jost-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9F43FB0A13F4F61AF5AA74F /* Jost-SemiBold.ttf */; };
+		1F5AAC62FE664210A5737690 /* Jost-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88FAF2FED0714103B8602A56 /* Jost-SemiBoldItalic.ttf */; };
+		884E1A9C3FDD41CE8DAE21E0 /* Jost-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 99523E4B57E04EA39B26F82C /* Jost-Thin.ttf */; };
+		25531C07E67346EEBEC36204 /* Jost-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F33C4A9E886A4DB7B59B1088 /* Jost-ThinItalic.ttf */; };
+		91E3F274A8B548FABEB01D9E /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9257ED505564DE3BBECE7E6 /* OpenSans-Bold.ttf */; };
+		CCDA874BB02141ADB5021F80 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C84CA113371C4EB5A096EF34 /* OpenSans-BoldItalic.ttf */; };
+		3552692FB48A47CB84951C49 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 015DA2E6043D4F409FBFE18B /* OpenSans-ExtraBold.ttf */; };
+		01867224E4224EE3AF6ACD85 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A2933E0D9CEB4A0EA5909A94 /* OpenSans-ExtraBoldItalic.ttf */; };
+		FEB113E947244DA7BC651D1B /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C9EB382763D44EEDAF7A8165 /* OpenSans-Italic.ttf */; };
+		AFB9BDD536E24C61AB0E8AF4 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 327CDE0AAECE44168A491450 /* OpenSans-Light.ttf */; };
+		D90B25020B5D4A479B544FAF /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF3E3FA844BF45039903B4DF /* OpenSans-LightItalic.ttf */; };
+		8F89D1D47BD3410D866C841B /* OpenSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7B72F3973424E629101A644 /* OpenSans-Medium.ttf */; };
+		BA06C3F52AA242369077FFEB /* OpenSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 68226D16DEB14F61A1F16092 /* OpenSans-MediumItalic.ttf */; };
+		01F42C94FA3A4A3F9D91537D /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4BE8761A114240928A965E45 /* OpenSans-Regular.ttf */; };
+		94F2FDE1B02B4AEA94F0C646 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C0FD1D1C95B14409AC481E85 /* OpenSans-SemiBold.ttf */; };
+		5D38F4BC7416435C881EDD09 /* OpenSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2BBE2B5086AA4CA98143971B /* OpenSans-SemiBoldItalic.ttf */; };
+		6F102406AC4B44FB9173E0CB /* Righteous-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B94FDD46A904B1FBB3C2004 /* Righteous-Regular.ttf */; };
+		AC118CE4809143E398EBB4FC /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CFFF95DEAE7453BB36B9DD4 /* Roboto-Black.ttf */; };
+		62996B29CC734AC9A99534E3 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57231AAAA00F4193ABC87A83 /* Roboto-BlackItalic.ttf */; };
+		763866C0A0CC4815A4577566 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC3A4F31E2884322919919B2 /* Roboto-Bold.ttf */; };
+		3AF30A6CF06A4591803A72D0 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AAC1AF450EFF468F9CB552B0 /* Roboto-BoldItalic.ttf */; };
+		A65AA7780D104A958AB82B99 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 89A1CB1820CC483AAE79A2BC /* Roboto-Italic.ttf */; };
+		43E559D70079432B966BB1C9 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4031460F697C4104AE535334 /* Roboto-Light.ttf */; };
+		588CAB17D96047299293F2A4 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0E19D89AAA304FD0B6F8882E /* Roboto-LightItalic.ttf */; };
+		794B75E66250442DBE3201C7 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE39AE36DB31489192039653 /* Roboto-Medium.ttf */; };
+		A7D4AD0F3BD84B7E9E6A2C8A /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1A38DAB59E2495489ABAB0F /* Roboto-MediumItalic.ttf */; };
+		BFF0CEF677FA485EA0D25D83 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E92209BE9A74A929231060F /* Roboto-Regular.ttf */; };
+		DD4C036A2F254AC3AE0C574E /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A968B833F1F143FBB0E89C29 /* Roboto-Thin.ttf */; };
+		07D0596805F244DE822F1348 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1AA0DB867A146DB9A3614C2 /* Roboto-ThinItalic.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = AstroRemedy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* AstroRemedyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstroRemedyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* AstroRemedyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AstroRemedyTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* AstroRemedy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstroRemedy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AstroRemedy/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = AstroRemedy/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AstroRemedy/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AstroRemedy/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AstroRemedy/main.m; sourceTree = "<group>"; };
+		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = AstroRemedy/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-AstroRemedy-AstroRemedyTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AstroRemedy-AstroRemedyTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4392A12AC88292D35C810B /* Pods-AstroRemedy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstroRemedy.debug.xcconfig"; path = "Target Support Files/Pods-AstroRemedy/Pods-AstroRemedy.debug.xcconfig"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-AstroRemedy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstroRemedy.release.xcconfig"; path = "Target Support Files/Pods-AstroRemedy/Pods-AstroRemedy.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-AstroRemedy-AstroRemedyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstroRemedy-AstroRemedyTests.debug.xcconfig"; path = "Target Support Files/Pods-AstroRemedy-AstroRemedyTests/Pods-AstroRemedy-AstroRemedyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-AstroRemedy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AstroRemedy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AstroRemedy/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-AstroRemedy-AstroRemedyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstroRemedy-AstroRemedyTests.release.xcconfig"; path = "Target Support Files/Pods-AstroRemedy-AstroRemedyTests/Pods-AstroRemedy-AstroRemedyTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		FF4CB0B8510A4CC2BC4D04C7 /* helvetica-compressed-5871d14b6903a.otf */ = {isa = PBXFileReference; name = "helvetica-compressed-5871d14b6903a.otf"; path = "../src/assets/fonts/helvetica-compressed-5871d14b6903a.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4EE6E0B0ED7D4E5D97D61FF6 /* helvetica-rounded-bold-5871d05ead8de.otf */ = {isa = PBXFileReference; name = "helvetica-rounded-bold-5871d05ead8de.otf"; path = "../src/assets/fonts/helvetica-rounded-bold-5871d05ead8de.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1C1326C86DA14F9F937D08E7 /* Helvetica-Bold.ttf */ = {isa = PBXFileReference; name = "Helvetica-Bold.ttf"; path = "../src/assets/fonts/Helvetica-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		207A88B570C24F7CBE015545 /* Helvetica-BoldOblique.ttf */ = {isa = PBXFileReference; name = "Helvetica-BoldOblique.ttf"; path = "../src/assets/fonts/Helvetica-BoldOblique.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AFE8301522694483ABB396EE /* helvetica-light-587ebe5a59211.ttf */ = {isa = PBXFileReference; name = "helvetica-light-587ebe5a59211.ttf"; path = "../src/assets/fonts/helvetica-light-587ebe5a59211.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EDE3EB50902243FF835372B9 /* Helvetica-Oblique.ttf */ = {isa = PBXFileReference; name = "Helvetica-Oblique.ttf"; path = "../src/assets/fonts/Helvetica-Oblique.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DD48C71A04814F5D9FFACF1A /* Inter-Black.ttf */ = {isa = PBXFileReference; name = "Inter-Black.ttf"; path = "../src/assets/fonts/Inter-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		80BF8D8C4E0F40C0B032F8BF /* Inter-Bold.ttf */ = {isa = PBXFileReference; name = "Inter-Bold.ttf"; path = "../src/assets/fonts/Inter-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3513024EC23F4404B5D4AED1 /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Inter-ExtraBold.ttf"; path = "../src/assets/fonts/Inter-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DA4494E960064548844E20E5 /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Inter-ExtraLight.ttf"; path = "../src/assets/fonts/Inter-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1E3B1F4CDE1F48CB824B753E /* Inter-Light.ttf */ = {isa = PBXFileReference; name = "Inter-Light.ttf"; path = "../src/assets/fonts/Inter-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		575948814D0842D4B8EAEC2B /* Inter-Medium.ttf */ = {isa = PBXFileReference; name = "Inter-Medium.ttf"; path = "../src/assets/fonts/Inter-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B36CFCB989AE4B078836C398 /* Inter-Regular.ttf */ = {isa = PBXFileReference; name = "Inter-Regular.ttf"; path = "../src/assets/fonts/Inter-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		83891236DC9C4F99B669F1E8 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; name = "Inter-SemiBold.ttf"; path = "../src/assets/fonts/Inter-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4E4A13B6BD2E453990FC66DE /* Inter-Thin.ttf */ = {isa = PBXFileReference; name = "Inter-Thin.ttf"; path = "../src/assets/fonts/Inter-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8B5406D2242C4C1B8E3394CB /* Jost-Black.ttf */ = {isa = PBXFileReference; name = "Jost-Black.ttf"; path = "../src/assets/fonts/Jost-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8DF52F05D4FC4574BA5A3B20 /* Jost-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Jost-BlackItalic.ttf"; path = "../src/assets/fonts/Jost-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DF030B93532C49DA9580AD86 /* Jost-Bold.ttf */ = {isa = PBXFileReference; name = "Jost-Bold.ttf"; path = "../src/assets/fonts/Jost-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		390449C411534AEBBDA9411C /* Jost-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Jost-BoldItalic.ttf"; path = "../src/assets/fonts/Jost-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6F72ECAE36CC45C083B8354F /* Jost-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Jost-ExtraBold.ttf"; path = "../src/assets/fonts/Jost-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		76857A3592454840B6CCB51D /* Jost-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "Jost-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/Jost-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9F79239329774F70B072CEA3 /* Jost-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Jost-ExtraLight.ttf"; path = "../src/assets/fonts/Jost-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9EFCC9EE4CC641E9A0624F0C /* Jost-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "Jost-ExtraLightItalic.ttf"; path = "../src/assets/fonts/Jost-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		074BA2FD782B49BAB152DB2C /* Jost-Italic.ttf */ = {isa = PBXFileReference; name = "Jost-Italic.ttf"; path = "../src/assets/fonts/Jost-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2D5A976080574E3084C28B67 /* Jost-Light.ttf */ = {isa = PBXFileReference; name = "Jost-Light.ttf"; path = "../src/assets/fonts/Jost-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D3A27E28F9C14CDFA90A590B /* Jost-LightItalic.ttf */ = {isa = PBXFileReference; name = "Jost-LightItalic.ttf"; path = "../src/assets/fonts/Jost-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2A3A49226FA14D6A89FE8896 /* Jost-Medium.ttf */ = {isa = PBXFileReference; name = "Jost-Medium.ttf"; path = "../src/assets/fonts/Jost-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9D7E863944AB4972AE7E7843 /* Jost-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Jost-MediumItalic.ttf"; path = "../src/assets/fonts/Jost-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		24AE4E5347A34C378371845E /* Jost-Regular.ttf */ = {isa = PBXFileReference; name = "Jost-Regular.ttf"; path = "../src/assets/fonts/Jost-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E9F43FB0A13F4F61AF5AA74F /* Jost-SemiBold.ttf */ = {isa = PBXFileReference; name = "Jost-SemiBold.ttf"; path = "../src/assets/fonts/Jost-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		88FAF2FED0714103B8602A56 /* Jost-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "Jost-SemiBoldItalic.ttf"; path = "../src/assets/fonts/Jost-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		99523E4B57E04EA39B26F82C /* Jost-Thin.ttf */ = {isa = PBXFileReference; name = "Jost-Thin.ttf"; path = "../src/assets/fonts/Jost-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F33C4A9E886A4DB7B59B1088 /* Jost-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Jost-ThinItalic.ttf"; path = "../src/assets/fonts/Jost-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A9257ED505564DE3BBECE7E6 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; name = "OpenSans-Bold.ttf"; path = "../src/assets/fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C84CA113371C4EB5A096EF34 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; name = "OpenSans-BoldItalic.ttf"; path = "../src/assets/fonts/OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		015DA2E6043D4F409FBFE18B /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; name = "OpenSans-ExtraBold.ttf"; path = "../src/assets/fonts/OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A2933E0D9CEB4A0EA5909A94 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "OpenSans-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C9EB382763D44EEDAF7A8165 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; name = "OpenSans-Italic.ttf"; path = "../src/assets/fonts/OpenSans-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		327CDE0AAECE44168A491450 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; name = "OpenSans-Light.ttf"; path = "../src/assets/fonts/OpenSans-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DF3E3FA844BF45039903B4DF /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; name = "OpenSans-LightItalic.ttf"; path = "../src/assets/fonts/OpenSans-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C7B72F3973424E629101A644 /* OpenSans-Medium.ttf */ = {isa = PBXFileReference; name = "OpenSans-Medium.ttf"; path = "../src/assets/fonts/OpenSans-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		68226D16DEB14F61A1F16092 /* OpenSans-MediumItalic.ttf */ = {isa = PBXFileReference; name = "OpenSans-MediumItalic.ttf"; path = "../src/assets/fonts/OpenSans-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4BE8761A114240928A965E45 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; name = "OpenSans-Regular.ttf"; path = "../src/assets/fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C0FD1D1C95B14409AC481E85 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; name = "OpenSans-SemiBold.ttf"; path = "../src/assets/fonts/OpenSans-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2BBE2B5086AA4CA98143971B /* OpenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "OpenSans-SemiBoldItalic.ttf"; path = "../src/assets/fonts/OpenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1B94FDD46A904B1FBB3C2004 /* Righteous-Regular.ttf */ = {isa = PBXFileReference; name = "Righteous-Regular.ttf"; path = "../src/assets/fonts/Righteous-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0CFFF95DEAE7453BB36B9DD4 /* Roboto-Black.ttf */ = {isa = PBXFileReference; name = "Roboto-Black.ttf"; path = "../src/assets/fonts/Roboto-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		57231AAAA00F4193ABC87A83 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-BlackItalic.ttf"; path = "../src/assets/fonts/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BC3A4F31E2884322919919B2 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; name = "Roboto-Bold.ttf"; path = "../src/assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AAC1AF450EFF468F9CB552B0 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-BoldItalic.ttf"; path = "../src/assets/fonts/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		89A1CB1820CC483AAE79A2BC /* Roboto-Italic.ttf */ = {isa = PBXFileReference; name = "Roboto-Italic.ttf"; path = "../src/assets/fonts/Roboto-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4031460F697C4104AE535334 /* Roboto-Light.ttf */ = {isa = PBXFileReference; name = "Roboto-Light.ttf"; path = "../src/assets/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0E19D89AAA304FD0B6F8882E /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-LightItalic.ttf"; path = "../src/assets/fonts/Roboto-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DE39AE36DB31489192039653 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; name = "Roboto-Medium.ttf"; path = "../src/assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B1A38DAB59E2495489ABAB0F /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-MediumItalic.ttf"; path = "../src/assets/fonts/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8E92209BE9A74A929231060F /* Roboto-Regular.ttf */ = {isa = PBXFileReference; name = "Roboto-Regular.ttf"; path = "../src/assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A968B833F1F143FBB0E89C29 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; name = "Roboto-Thin.ttf"; path = "../src/assets/fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A1AA0DB867A146DB9A3614C2 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-ThinItalic.ttf"; path = "../src/assets/fonts/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7699B88040F8A987B510C191 /* libPods-AstroRemedy-AstroRemedyTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-AstroRemedy.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* AstroRemedyTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* AstroRemedyTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = AstroRemedyTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* AstroRemedy */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+			);
+			name = AstroRemedy;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-AstroRemedy.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-AstroRemedy-AstroRemedyTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* AstroRemedy */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* AstroRemedyTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				B4C44AACC5D5495EAAB6FC37 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* AstroRemedy.app */,
+				00E356EE1AD99517003FC87E /* AstroRemedyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-AstroRemedy.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-AstroRemedy.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-AstroRemedy-AstroRemedyTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-AstroRemedy-AstroRemedyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B4C44AACC5D5495EAAB6FC37 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				FF4CB0B8510A4CC2BC4D04C7 /* helvetica-compressed-5871d14b6903a.otf */,
+				4EE6E0B0ED7D4E5D97D61FF6 /* helvetica-rounded-bold-5871d05ead8de.otf */,
+				1C1326C86DA14F9F937D08E7 /* Helvetica-Bold.ttf */,
+				207A88B570C24F7CBE015545 /* Helvetica-BoldOblique.ttf */,
+				AFE8301522694483ABB396EE /* helvetica-light-587ebe5a59211.ttf */,
+				EDE3EB50902243FF835372B9 /* Helvetica-Oblique.ttf */,
+				DD48C71A04814F5D9FFACF1A /* Inter-Black.ttf */,
+				80BF8D8C4E0F40C0B032F8BF /* Inter-Bold.ttf */,
+				3513024EC23F4404B5D4AED1 /* Inter-ExtraBold.ttf */,
+				DA4494E960064548844E20E5 /* Inter-ExtraLight.ttf */,
+				1E3B1F4CDE1F48CB824B753E /* Inter-Light.ttf */,
+				575948814D0842D4B8EAEC2B /* Inter-Medium.ttf */,
+				B36CFCB989AE4B078836C398 /* Inter-Regular.ttf */,
+				83891236DC9C4F99B669F1E8 /* Inter-SemiBold.ttf */,
+				4E4A13B6BD2E453990FC66DE /* Inter-Thin.ttf */,
+				8B5406D2242C4C1B8E3394CB /* Jost-Black.ttf */,
+				8DF52F05D4FC4574BA5A3B20 /* Jost-BlackItalic.ttf */,
+				DF030B93532C49DA9580AD86 /* Jost-Bold.ttf */,
+				390449C411534AEBBDA9411C /* Jost-BoldItalic.ttf */,
+				6F72ECAE36CC45C083B8354F /* Jost-ExtraBold.ttf */,
+				76857A3592454840B6CCB51D /* Jost-ExtraBoldItalic.ttf */,
+				9F79239329774F70B072CEA3 /* Jost-ExtraLight.ttf */,
+				9EFCC9EE4CC641E9A0624F0C /* Jost-ExtraLightItalic.ttf */,
+				074BA2FD782B49BAB152DB2C /* Jost-Italic.ttf */,
+				2D5A976080574E3084C28B67 /* Jost-Light.ttf */,
+				D3A27E28F9C14CDFA90A590B /* Jost-LightItalic.ttf */,
+				2A3A49226FA14D6A89FE8896 /* Jost-Medium.ttf */,
+				9D7E863944AB4972AE7E7843 /* Jost-MediumItalic.ttf */,
+				24AE4E5347A34C378371845E /* Jost-Regular.ttf */,
+				E9F43FB0A13F4F61AF5AA74F /* Jost-SemiBold.ttf */,
+				88FAF2FED0714103B8602A56 /* Jost-SemiBoldItalic.ttf */,
+				99523E4B57E04EA39B26F82C /* Jost-Thin.ttf */,
+				F33C4A9E886A4DB7B59B1088 /* Jost-ThinItalic.ttf */,
+				A9257ED505564DE3BBECE7E6 /* OpenSans-Bold.ttf */,
+				C84CA113371C4EB5A096EF34 /* OpenSans-BoldItalic.ttf */,
+				015DA2E6043D4F409FBFE18B /* OpenSans-ExtraBold.ttf */,
+				A2933E0D9CEB4A0EA5909A94 /* OpenSans-ExtraBoldItalic.ttf */,
+				C9EB382763D44EEDAF7A8165 /* OpenSans-Italic.ttf */,
+				327CDE0AAECE44168A491450 /* OpenSans-Light.ttf */,
+				DF3E3FA844BF45039903B4DF /* OpenSans-LightItalic.ttf */,
+				C7B72F3973424E629101A644 /* OpenSans-Medium.ttf */,
+				68226D16DEB14F61A1F16092 /* OpenSans-MediumItalic.ttf */,
+				4BE8761A114240928A965E45 /* OpenSans-Regular.ttf */,
+				C0FD1D1C95B14409AC481E85 /* OpenSans-SemiBold.ttf */,
+				2BBE2B5086AA4CA98143971B /* OpenSans-SemiBoldItalic.ttf */,
+				1B94FDD46A904B1FBB3C2004 /* Righteous-Regular.ttf */,
+				0CFFF95DEAE7453BB36B9DD4 /* Roboto-Black.ttf */,
+				57231AAAA00F4193ABC87A83 /* Roboto-BlackItalic.ttf */,
+				BC3A4F31E2884322919919B2 /* Roboto-Bold.ttf */,
+				AAC1AF450EFF468F9CB552B0 /* Roboto-BoldItalic.ttf */,
+				89A1CB1820CC483AAE79A2BC /* Roboto-Italic.ttf */,
+				4031460F697C4104AE535334 /* Roboto-Light.ttf */,
+				0E19D89AAA304FD0B6F8882E /* Roboto-LightItalic.ttf */,
+				DE39AE36DB31489192039653 /* Roboto-Medium.ttf */,
+				B1A38DAB59E2495489ABAB0F /* Roboto-MediumItalic.ttf */,
+				8E92209BE9A74A929231060F /* Roboto-Regular.ttf */,
+				A968B833F1F143FBB0E89C29 /* Roboto-Thin.ttf */,
+				A1AA0DB867A146DB9A3614C2 /* Roboto-ThinItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* AstroRemedyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AstroRemedyTests" */;
+			buildPhases = (
+				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
+				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = AstroRemedyTests;
+			productName = AstroRemedyTests;
+			productReference = 00E356EE1AD99517003FC87E /* AstroRemedyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* AstroRemedy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AstroRemedy" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AstroRemedy;
+			productName = AstroRemedy;
+			productReference = 13B07F961A680F5B00A75B9A /* AstroRemedy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "AstroRemedy" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* AstroRemedy */,
+				00E356ED1AD99517003FC87E /* AstroRemedyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				612CBCD38ADA4256AE1D33CE /* helvetica-compressed-5871d14b6903a.otf in Resources */,
+				A18B46B3E5AA49B5B0BEA736 /* helvetica-rounded-bold-5871d05ead8de.otf in Resources */,
+				7359620EAF0547A0A6E9BE38 /* Helvetica-Bold.ttf in Resources */,
+				A21AB930262E4146B4A9A766 /* Helvetica-BoldOblique.ttf in Resources */,
+				595992909BDF449FBE6CCBE7 /* helvetica-light-587ebe5a59211.ttf in Resources */,
+				DF0835C094B9498D92F4A632 /* Helvetica-Oblique.ttf in Resources */,
+				0B4C7B349DED41668A904DA0 /* Inter-Black.ttf in Resources */,
+				82A48252E89A4F2F94D60182 /* Inter-Bold.ttf in Resources */,
+				941A287965934E628A81B946 /* Inter-ExtraBold.ttf in Resources */,
+				8556984001BD4109A66E3F5E /* Inter-ExtraLight.ttf in Resources */,
+				BF06D56B86C34176A5999D3C /* Inter-Light.ttf in Resources */,
+				00A93CAAEA904749A1911DD3 /* Inter-Medium.ttf in Resources */,
+				2A3ED889C500448997330817 /* Inter-Regular.ttf in Resources */,
+				0CD6882EDD5A495DB0BCB496 /* Inter-SemiBold.ttf in Resources */,
+				743573F73FE4409982724520 /* Inter-Thin.ttf in Resources */,
+				1BA0104F0B0A44DB82FFD62D /* Jost-Black.ttf in Resources */,
+				20F3D3D016CB48BFA8D967D3 /* Jost-BlackItalic.ttf in Resources */,
+				B221EBABF9BE422E95BCC809 /* Jost-Bold.ttf in Resources */,
+				213C80623EE94CC8A8855EC0 /* Jost-BoldItalic.ttf in Resources */,
+				3440C41D10E4465FA5726CB9 /* Jost-ExtraBold.ttf in Resources */,
+				2B408EAC937F4D308783B46A /* Jost-ExtraBoldItalic.ttf in Resources */,
+				32064FF2ADA449FBB294B665 /* Jost-ExtraLight.ttf in Resources */,
+				761BB2DFC308490EA85249D3 /* Jost-ExtraLightItalic.ttf in Resources */,
+				A9FC89F91B3F40E6943F97DA /* Jost-Italic.ttf in Resources */,
+				C810007F8F664B6897201E20 /* Jost-Light.ttf in Resources */,
+				F714A9C109334EFCB72F0CFC /* Jost-LightItalic.ttf in Resources */,
+				5EA1C2B89FA94409803F72A8 /* Jost-Medium.ttf in Resources */,
+				D27A8D4428F24934BCDB33E0 /* Jost-MediumItalic.ttf in Resources */,
+				A390294484884EDA98812116 /* Jost-Regular.ttf in Resources */,
+				64F539D2797B4D8787D466C5 /* Jost-SemiBold.ttf in Resources */,
+				1F5AAC62FE664210A5737690 /* Jost-SemiBoldItalic.ttf in Resources */,
+				884E1A9C3FDD41CE8DAE21E0 /* Jost-Thin.ttf in Resources */,
+				25531C07E67346EEBEC36204 /* Jost-ThinItalic.ttf in Resources */,
+				91E3F274A8B548FABEB01D9E /* OpenSans-Bold.ttf in Resources */,
+				CCDA874BB02141ADB5021F80 /* OpenSans-BoldItalic.ttf in Resources */,
+				3552692FB48A47CB84951C49 /* OpenSans-ExtraBold.ttf in Resources */,
+				01867224E4224EE3AF6ACD85 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				FEB113E947244DA7BC651D1B /* OpenSans-Italic.ttf in Resources */,
+				AFB9BDD536E24C61AB0E8AF4 /* OpenSans-Light.ttf in Resources */,
+				D90B25020B5D4A479B544FAF /* OpenSans-LightItalic.ttf in Resources */,
+				8F89D1D47BD3410D866C841B /* OpenSans-Medium.ttf in Resources */,
+				BA06C3F52AA242369077FFEB /* OpenSans-MediumItalic.ttf in Resources */,
+				01F42C94FA3A4A3F9D91537D /* OpenSans-Regular.ttf in Resources */,
+				94F2FDE1B02B4AEA94F0C646 /* OpenSans-SemiBold.ttf in Resources */,
+				5D38F4BC7416435C881EDD09 /* OpenSans-SemiBoldItalic.ttf in Resources */,
+				6F102406AC4B44FB9173E0CB /* Righteous-Regular.ttf in Resources */,
+				AC118CE4809143E398EBB4FC /* Roboto-Black.ttf in Resources */,
+				62996B29CC734AC9A99534E3 /* Roboto-BlackItalic.ttf in Resources */,
+				763866C0A0CC4815A4577566 /* Roboto-Bold.ttf in Resources */,
+				3AF30A6CF06A4591803A72D0 /* Roboto-BoldItalic.ttf in Resources */,
+				A65AA7780D104A958AB82B99 /* Roboto-Italic.ttf in Resources */,
+				43E559D70079432B966BB1C9 /* Roboto-Light.ttf in Resources */,
+				588CAB17D96047299293F2A4 /* Roboto-LightItalic.ttf in Resources */,
+				794B75E66250442DBE3201C7 /* Roboto-Medium.ttf in Resources */,
+				A7D4AD0F3BD84B7E9E6A2C8A /* Roboto-MediumItalic.ttf in Resources */,
+				BFF0CEF677FA485EA0D25D83 /* Roboto-Regular.ttf in Resources */,
+				DD4C036A2F254AC3AE0C574E /* Roboto-Thin.ttf in Resources */,
+				07D0596805F244DE822F1348 /* Roboto-ThinItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AstroRemedy/Pods-AstroRemedy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AstroRemedy/Pods-AstroRemedy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AstroRemedy/Pods-AstroRemedy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AstroRemedy-AstroRemedyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AstroRemedy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AstroRemedy-AstroRemedyTests/Pods-AstroRemedy-AstroRemedyTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AstroRemedy-AstroRemedyTests/Pods-AstroRemedy-AstroRemedyTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AstroRemedy-AstroRemedyTests/Pods-AstroRemedy-AstroRemedyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AstroRemedy/Pods-AstroRemedy-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AstroRemedy/Pods-AstroRemedy-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AstroRemedy/Pods-AstroRemedy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AstroRemedy-AstroRemedyTests/Pods-AstroRemedy-AstroRemedyTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AstroRemedy-AstroRemedyTests/Pods-AstroRemedy-AstroRemedyTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AstroRemedy-AstroRemedyTests/Pods-AstroRemedy-AstroRemedyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* AstroRemedyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* AstroRemedy */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-AstroRemedy-AstroRemedyTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AstroRemedyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AstroRemedy.app/AstroRemedy";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-AstroRemedy-AstroRemedyTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = AstroRemedyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AstroRemedy.app/AstroRemedy";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-AstroRemedy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = AstroRemedy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = AstroRemedy;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-AstroRemedy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = AstroRemedy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = AstroRemedy;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AstroRemedyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AstroRemedy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "AstroRemedy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

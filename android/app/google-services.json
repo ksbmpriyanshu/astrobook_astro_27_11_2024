@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "1086555677086",
+    "firebase_url": "https://astrobook-96d06-default-rtdb.firebaseio.com",
+    "project_id": "astrobook-96d06",
+    "storage_bucket": "astrobook-96d06.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086555677086:android:93aed89ee4000490c2368f",
+        "android_client_info": {
+          "package_name": "com.ksbm.astrobook_astro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnUJv_vrFjVKvg0LbMGQH_33zgqohkHgs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086555677086:android:78e2908c073fb364c2368f",
+        "android_client_info": {
+          "package_name": "com.ksbm.astrobook_user"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnUJv_vrFjVKvg0LbMGQH_33zgqohkHgs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
