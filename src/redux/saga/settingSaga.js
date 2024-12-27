@@ -361,7 +361,7 @@ function* getwithdrawwallet(actions) {
         ...payload
       },
     });
-    console.log(response)
+    console.log("withdraw suuccess",response)
     if (response?.success) {
       yield put({
         type: actionTypes.SET_WITHDRAW_WALLET,

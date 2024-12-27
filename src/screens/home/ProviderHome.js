@@ -61,7 +61,6 @@ import { Item } from 'react-native-paper/lib/typescript/components/Drawer/Drawer
 const { width, height } = Dimensions.get('screen');
 
 const ProviderHome = ({ providerData, navigation, dispatch, callRequestData, callVideoRequestData, anouncementData, videoCallHistoryData, chatHistoryData, callHistoryData, liveVedioCallHistoryData, offlineData, onlineData }) => {
-
   const { t } = useTranslation();
   const [isRefereshing, setIsRefereshing] = useState(false);
   const [date, setDate] = useState(null);
@@ -749,7 +748,7 @@ const ProviderHome = ({ providerData, navigation, dispatch, callRequestData, cal
                 </View>
                 <View>
                   <Text style={{ color: colors.black_color9, fontSize: Sizes.fixPadding * 1.8, fontWeight: "500" }}>Call</Text>
-                  <Text style={{ color: colors.black_color7, fontSize: Sizes.fixPadding * 1.4 }}>₹ 400/min</Text>
+                  <Text style={{ color: colors.black_color7, fontSize: Sizes.fixPadding * 1.4 }}>₹ {providerData?.call_price}/min</Text>
                 </View>
               </View>
 
@@ -785,7 +784,7 @@ const ProviderHome = ({ providerData, navigation, dispatch, callRequestData, cal
                 </View>
                 <View>
                   <Text style={{ color: colors.black_color9, fontSize: Sizes.fixPadding * 1.8, fontWeight: "500" }}>Chat</Text>
-                  <Text style={{ color: colors.black_color7, fontSize: Sizes.fixPadding * 1.4 }}>₹ 400/min</Text>
+                  <Text style={{ color: colors.black_color7, fontSize: Sizes.fixPadding * 1.4 }}>₹  {providerData?.chat_price}/min</Text>
                 </View>
               </View>
 
@@ -820,7 +819,7 @@ const ProviderHome = ({ providerData, navigation, dispatch, callRequestData, cal
                 </View>
                 <View>
                   <Text style={{ color: colors.black_color9, fontSize: Sizes.fixPadding * 1.8, fontWeight: "500" }}>Video Call</Text>
-                  <Text style={{ color: colors.black_color7, fontSize: Sizes.fixPadding * 1.4 }}>₹ 400/min</Text>
+                  <Text style={{ color: colors.black_color7, fontSize: Sizes.fixPadding * 1.4 }}>₹  {providerData?.video_call_price}/min</Text>
                 </View>
               </View>
 

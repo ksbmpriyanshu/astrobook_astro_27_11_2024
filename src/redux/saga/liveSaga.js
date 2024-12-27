@@ -362,6 +362,7 @@ function* sendCallRequestToUser(actions) {
   try {
     const { payload } = actions;
     const liveID = yield select(state => state.live.liveID);
+    console.log("liveID:::>>>",liveID)
     const coHostData = yield select(state => state.live.coHostData)
     if (coHostData) {
       yield call(showToastMessage, { message: 'Please end current call' })
@@ -371,9 +372,10 @@ function* sendCallRequestToUser(actions) {
       command: 'accept_call',
       type: 'vedio',
     };
-    ZegoExpressEngine.instance()
-      .sendCustomCommand(liveID, JSON.stringify(command), [{ userID: payload }])
+    console.log("start video call:::")
+    ZegoExpressEngine.instance().sendCustomCommand(liveID, JSON.stringify(command), [{ userID: payload }])
       .then(() => {
+        console.log("::::again start video call:::")
         showToastMessage({ message: 'Call request sended.' });
       });
     yield put({ type: actionTypes.SET_WAITING_LIST_VISIBLE, payload: false })
@@ -472,10 +474,7 @@ export default function* liveSaga() {
   yield takeLeading(actionTypes.SEND_COMMENTS, sendComments);
   yield takeLeading(actionTypes.REMOVE_HEART, removeHeart);
   yield takeLeading(actionTypes.ADD_HEART, addHeart);
-  yield takeLeading(
-    actionTypes.SEND_CALL_REQUEST_TO_USER,
-    sendCallRequestToUser,
-  );
+  yield takeLeading( actionTypes.SEND_CALL_REQUEST_TO_USER, sendCallRequestToUser);
   yield takeLeading(actionTypes.ON_STREAM_UPDATE, onStreamUpdate);
   yield takeLeading(actionTypes.END_LIVE_CALL, endLiveCall);
   yield takeLeading(actionTypes.ON_LIVE_MUTE_UNMUTE, onLiveMuteUnmute);
