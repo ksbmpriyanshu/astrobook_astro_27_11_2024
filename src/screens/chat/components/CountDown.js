@@ -4,6 +4,7 @@ import {connect} from 'react-redux';
 
 
 const CountDown = ({chatTimerCountDown}) => {
+  console.log("chatTimerCountDown",chatTimerCountDown)
   const formatTime = seconds => {
     const minutes = Math.floor(seconds / 60);
     const remainingSeconds = seconds % 60;
